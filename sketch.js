@@ -16,22 +16,22 @@ function draw() {
   x = x + xspeed;
   
   if(x>=width){
-    xspeed = -3;
+    xspeed = -9;
     fill (random(0, 255), random(0, 255), random(0, 255));
   }
    if(x<=0){
-    xspeed = 3;
+    xspeed = 9;
     fill (random(0, 255), random(0, 255), random(0, 255));
   }
   
   y = y + yspeed;
   
   if(y>=height){
-    yspeed = -3;
+    yspeed = -9;
     fill (random(0, 255), random(0, 255), random(0, 255));
   }
    if(y<=0){
-    yspeed = 3;
+    yspeed = 9;
     fill (random(0, 255), random(0, 255), random(0, 255));
   }
 
