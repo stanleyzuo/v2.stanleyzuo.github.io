@@ -29,6 +29,7 @@ body > .container {
 #copyright {
   margin: 20px 0;
   display: inline-block;
+  color:#777;
  } 
 
 .footer > .container {
