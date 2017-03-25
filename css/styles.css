@@ -14,7 +14,7 @@ body {
   width: 100%;
   /* Set the fixed height of the footer here */
   height: 60px;
-  background-color: #f5f5f5;
+  background-color: #383838;
 }
 
 
@@ -26,10 +26,22 @@ body > .container {
   padding: 60px 15px 0;
 }
 
+.navbar-inverse .navbar-brand {
+  color:white;
+}
+
+.navbar{
+  background-color: #383838;
+}
+
+#navbar{
+  float:right;
+}
+
 #copyright {
   margin: 20px 0;
   display: inline-block;
-  color:#777;
+  color:#9d9d9d;
  } 
 
 .footer > .container {
@@ -43,6 +55,10 @@ body > .container {
   word-spacing:20px;
 }
 
+#contact a {
+  color:white;
+}
+
 .resume {
   margin:auto;
   width: 80%;
@@ -52,14 +68,14 @@ body > .container {
   box-sizing: border-box;
 }
 
-.contact {
+.email {
   position: relative;
   padding-bottom: 100%;
   height: 0;
   overflow: hidden;
 }
  
-.contact iframe {
+.email iframe {
   position: absolute;
   top:0;
   left: 0;
