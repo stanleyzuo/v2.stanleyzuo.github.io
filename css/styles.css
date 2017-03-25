@@ -44,7 +44,12 @@ body > .container {
 }
 
 .resume {
- text-align: center; 
+  margin:auto;
+  width: 80%;
+  height: 100%;
+  border-style: groove;
+  border-width: 1px;
+  box-sizing: border-box;
 }
 
 .contact {
@@ -61,4 +66,9 @@ body > .container {
   padding:5% 10% 5% 10%;
   width: 100%;
   height: 100%;
+}
+
+.download {
+  text-align: center;
+  margin:5%;
 }
