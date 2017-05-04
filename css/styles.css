@@ -107,3 +107,7 @@ body > .container {
   text-align: center;
   margin:5%;
 }
+
+.portfolio-item {
+    margin-bottom: 25px;
+}
