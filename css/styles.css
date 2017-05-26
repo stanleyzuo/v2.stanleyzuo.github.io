@@ -135,7 +135,7 @@ h4.home {
 
 .links {
   word-spacing:20px;
-  margin-top: 20px;
+  /*margin-top: 20px;*/
 }
 
 .links a {
@@ -144,14 +144,15 @@ h4.home {
 }
 
 .links a:hover {
-  color:grey;
+  color:black;
 }
 
 #merlin a{
-  color:black;
+  color:#18C67F;
   text-decoration: none;
+  -webkit-text-stroke: 1px black;
 }
 
 #merlin a:hover{
-  color:#18C67F;
+  color:black;
 }
