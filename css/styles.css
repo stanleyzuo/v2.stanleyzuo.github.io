@@ -46,8 +46,8 @@ textarea {
   background-color: #383838;
 }
 
-#navbar{
-  float:right;
+.nav{
+  text-align:center;
 }
 
 #copyright {
