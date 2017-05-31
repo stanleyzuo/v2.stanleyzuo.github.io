@@ -156,9 +156,25 @@ button.btn {
   width:25%;
 }
 
-.map {
-  width:100%;
+#map1 {
+  width:90%;
   height:100%;
   margin:auto;
   padding:1% 0 2% 0;
+}
+
+#map1 h3 {
+  text-align: center;
+}
+
+#map2 {
+  display:none;
+  width:90%;
+  height:100%;
+  margin:auto;
+  padding:1% 0 2% 0;
+}
+
+#map2 h3 {
+  text-align: center;
 }
