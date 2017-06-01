@@ -71,6 +71,10 @@ textarea {
   color:white;
 }
 
+#contact a:hover {
+  color:#286090;
+}
+
 .resume {
   margin:auto;
   width: 80%;
@@ -152,7 +156,7 @@ h4.home {
   color:black;
 }
 
-button.btn {
+.download button {
   width:25%;
 }
 
@@ -160,11 +164,7 @@ button.btn {
   width:90%;
   height:100%;
   margin:auto;
-  padding:1% 0 2% 0;
-}
-
-#map1 h3 {
-  text-align: center;
+  padding:1% 0 3% 0;
 }
 
 #map2 {
@@ -172,9 +172,9 @@ button.btn {
   width:90%;
   height:100%;
   margin:auto;
-  padding:1% 0 2% 0;
+  padding:1% 0 3% 0;
 }
 
-#map2 h3 {
-  text-align: center;
+#toggle {
+  margin: 0 0 0 5%;
 }
