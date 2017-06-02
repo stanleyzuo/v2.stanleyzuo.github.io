@@ -13,8 +13,9 @@ body {
   bottom: 0;
   width: 100%;
   /* Set the fixed height of the footer here */
-  height: 60px;
-  background-color: #383838;
+  height: 40px;
+  background-color: #E5E5E5;
+  /*border-top: thin solid #E5E5E5;*/
 }
 
 
@@ -63,16 +64,16 @@ textarea {
 
 #contact {
   text-align: center;
-  margin-top:20px;
+  margin-top:10px;
   word-spacing:20px;
 }
 
 #contact a {
-  color:white;
+  color:black;
 }
 
 #contact a:hover {
-  color:#286090;
+  color:white;
 }
 
 .resume {
@@ -185,4 +186,13 @@ h4.home {
   height:auto;
   display:block;
   margin:auto;
+}
+
+.places {
+  text-align: center;
+  margin:5%;
+}
+
+.about {
+  margin: 5%;
 }
