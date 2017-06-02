@@ -62,7 +62,7 @@ textarea {
 }
 
 #contact {
-  float:right;
+  text-align: center;
   margin-top:20px;
   word-spacing:20px;
 }
