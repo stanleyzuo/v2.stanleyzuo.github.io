@@ -64,8 +64,12 @@ textarea {
 
 #contact {
   text-align: center;
-  margin-top:10px;
+  margin-top:12px;
   word-spacing:20px;
+}
+
+#contact i {
+  font-size:25px;
 }
 
 #contact a {
