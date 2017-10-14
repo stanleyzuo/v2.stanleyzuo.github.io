@@ -200,3 +200,23 @@ h4.home {
 .about {
   margin: 5%;
 }
+
+.right {
+  float:right;
+}
+
+.col-md-4 > ul {
+  margin: 1em 0 2em -1.5em;
+}
+
+.col-md-4 > h3 {
+  color:#377BB5;
+  margin-bottom: 1em;
+}
+
+.col-md-4 > h4 {
+  color: black;
+  margin-bottom: -1em;
+  font-size: 1.2em;
+  font-weight:bold;
+}
