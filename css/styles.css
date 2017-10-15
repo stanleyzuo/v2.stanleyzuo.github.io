@@ -256,3 +256,21 @@ h4.home {
   height:215px;
 }
 
+@media screen and (min-width: 980px) {
+  .divider {
+    height:4em;
+  }
+}
+
+@media screen and (max-width: 980px) {
+  .divider {
+    margin-top: -1em;
+  }
+}
+
+h4.writing {
+  margin-bottom: 1em;
+  font-weight:500;
+}
+
+
