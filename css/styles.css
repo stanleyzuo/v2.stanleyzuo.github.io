@@ -239,6 +239,12 @@ h4.home {
   opacity: .8;
 }
 
+@media screen and (max-width: 980px) {
+  .col-md-4 .overlay {
+  opacity: .8;
+  }
+}
+
 .text {
   color: white;
   font-size: 20px;
