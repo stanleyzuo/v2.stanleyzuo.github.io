@@ -200,6 +200,7 @@ h4.home {
 
 .right {
   float:right;
+  font-style: italic;
 }
 
 .col-md-4 > ul {
@@ -273,4 +274,15 @@ h4.writing {
   font-weight:500;
 }
 
+img.logo {
+  width:10em;
+  height:100%;
+  margin-bottom: 1em;
+}
+
+img.nyu {
+  width:20em;
+  height:100%;
+  margin-bottom: 1em;
+}
 
