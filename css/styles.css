@@ -115,13 +115,13 @@ textarea {
     margin-bottom: 25px;
 }
 
-.full {
+/*.full {
   background: url(../img/beach.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-}
+}*/
 
 h1.home {
   font-family: 'Fjalla One', sans-serif;
@@ -131,7 +131,7 @@ h1.home {
 
 h4.home {
   font-family: 'Fjalla One', sans-serif;
-  color:black;
+  color: white;
   font-size: 2em;
 }
 
