@@ -77,3 +77,11 @@
   text-shadow: 2px 2px #000;
   color: #FFF;
 }
+
+.item h4 {
+    position: absolute;
+    bottom:10%;
+    right:10%;
+}
+
+
