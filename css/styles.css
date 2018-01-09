@@ -36,6 +36,15 @@ textarea {
   width:100%;
 }
 
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+  font-family: 'Fjalla One', sans-serif;
+}
+
+
 .navbar-inverse .navbar-brand {
   color:white;
 }
@@ -145,7 +154,7 @@ h4.home {
 }
 
 .links a:hover {
-  color:black;
+  color:#383838;
 }
 
 #merlin a{
