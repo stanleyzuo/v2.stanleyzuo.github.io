@@ -1,0 +1,45 @@
+.navbar-toggle {
+  float: right !important;
+  margin-right: 15px;
+  margin-left: 0;
+}
+
+#nav-modal {
+  background-color: black;
+  opacity: .7;
+}
+
+.modal-nav-content {
+  width: 100%;
+  height: auto;
+}
+
+.modal-nav-body {
+  margin-top: 100px; 
+}
+
+.modal-nav-body ul {
+  list-style-type: none;
+  color: white;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.modal-nav-body ul li {
+  text-align: center;
+  font-size: 130%;
+  padding: 8px;
+  text-transform: uppercase;
+}
+
+.modal-nav-body a {
+  text-decoration: none;
+  color: white;
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 2em;
+}
+
+.modal-nav-body a:hover {
+  color:#383838
+}
