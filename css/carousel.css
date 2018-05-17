@@ -42,21 +42,21 @@
     }
 }
 .item:nth-child(1) {
-    background: url(https://lh3.googleusercontent.com/BcN2l7SWRRI3qn_Box5d_0DPC3ER0P2CPKWiJEpJMufAryvXcYkqjGug-2SSUkdr6Bcx1u9qagmS_rOtCpg4lRP-GOzhXSHdzaF6d_wJf4QkglwMcnlzSAtNQpZ9fm5SdFpcaXvfWxRGqduE-Nj_EylgJqE614IAiYP8w03uHSJa--29kaPEQaRMEwHZPi1ikba9QJEtFLI9D8OfvPlyl3VewrKHkh9YWc6nDgNJUybtfPSleUxwWBUIGuE-6TvSKiFPXa45R1_z1UK0Fy33-gMnqDNs8kUiNLIlkGef6PIZ6QjNiMe3i1gtsLpe-lMg6rJVje6iT-9od1OYyBfPHgBHPLDbDMQ_f688FxHTQGKzi00cznM2ClMYj1t59FZ6_zlhhCHS3lEdikZOu9CbGxAfjRtDRkJCRm3eZUIoW0SD4RMJrqv0AULfHCDb6krqIjUiT16oR46_6ZpCHNCp-Mkv2Wv1CekvhPbwtXKJprj1ADNwYuuGPYs0X9XLlZmkT3P5a1_SEqu4b5MNyPJD1_-Md1DKCb-rKkj90SippCRiZPdqvIljO6gwXt5SD160iQIk9OcTrzLyCItkfkMz5RY5_4VLKN5JHfvXtXpOkg=w1876-h1406-no) no-repeat center center fixed;
+    background: url("../img/Seattle.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
 }
 .item:nth-child(2) {
-    background: url(https://lh3.googleusercontent.com/GUanWp5uVjFQ2IBC-WEN194ccoqg5c25h048xnwuJ_js-cKXuqUPDifTpfk8gs9OQelai5MHqoJ1eJVBpDdgM7UkPttTnEzmNGPJ01-FGaS6CLfZ2TBPv5OFdw05ikM70O6ghCLGLt0AdVJitvruAwQ4nnhv-nbTTLS_92rQFmi9mS45gIJnljLbLxSVW6D9raKBS6RcV_CmccGPz6yWSn_esrkfSXVmCRVdYGGRQ6IzrBLNp6P5Imk5_igBXnyhMRhTDNvWMtagpz32QHp2wcjBu4U07zW8FAiTDsEiyQPW9Cl37wJqNWGzwTVQIaIl0y1xEX5KIUczHU-qRi02H3vZF1Cy5oqjOEqaPbeK45KAMWrT0rO5jVFQJCM8QPWS5YRWDk0TpOOskXkkoPTJBXI3omrK_I3cjk6XbpmR80sK47DBtaZgMgMzNjz6RGR5lfKMfLbR3zYkHKmFXpg0b1zFPZkEcJ5g3T-3f5MwUw8f-rYVtb30mbgdCIyQlv2_epiVNB1xA8LXjS5Lag0DQutYlOxTcOEaXke0ZvsXt7LGdj_1pBnXDfUUTI83VaFjbEHdzo4OB2A8ieqMASlITd5HtZTIhq-PYpnmkUgC9A=w1876-h1406-no) no-repeat center center fixed;
+    background: url("../img/DR.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
 }
 .item:nth-child(3) {
-    background: url(https://lh3.googleusercontent.com/fs1oirlLR3ribMZZHcHwG_kgQ-0n7r0b3wBNmZv1R_2ROAD0pGnoFwxwD5ugHYrWTaZsAbTe2rNBnszQhpxLqhDKGKvXhM5fhfWqPiVehSQa7tAaf2F-BdLDvDc0SRGXVtGBJiY2ID-pWobpbHpk10LGz5t16p_4hD0HIA1aLZKhnWBeNhgoQlWfcv0ZYhakKEX84D93qn3PxKTOri57e0iFEe6-5kn4o34LxEfiKFHQzkEXgEJz2WZQn_cvv5p_XaVb5KesdSa18vaKfMHFn15SGdrIl5MrH6XQdHfMlLyMh9E-kiSgNoKbvdLyH3POksRGeMHXOQQoUoGbOWIAcB4lSh8mv-TmrjrDFtlPk7TdeFvsKjYuZ7n9Gl8srjw7kRB2CU579_vpkhROL3IwHWGshGxcsbN1v-zsRBXDuZewpQ_lejp_fQYT0idhhEYLIv0O-OKoxXDlCz4PF6LxYrpiv5a7jrV9EXy09cyrHhsmIwkW1P-zYqQ2717srpFMaeSS5LKDAhpXS4G0ZIQCcjt6ovdCaKHOgAz04ZZhMXb3krQsmvJKfBaFXNuZdRB0KgzH8OBe4Nhd7aqmi37sLz5mJnjvHcNHWhL_4hXrfA=w1876-h1406-no) no-repeat center center fixed;
+    background: url("../img/Colombia.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
