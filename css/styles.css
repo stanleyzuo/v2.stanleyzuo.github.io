@@ -158,13 +158,12 @@ h4.home {
 }
 
 #merlin a{
-  color:#18C67F;
+  color:#2AF0FD;
   text-decoration: none;
-  -webkit-text-stroke: 1px black;
 }
 
 #merlin a:hover{
-  color:black;
+  color:#383838;
 }
 
 .download button {
@@ -300,5 +299,51 @@ img.nyu {
   width:20em;
   height:100%;
   margin-bottom: 1em;
+}
+
+.onoffswitch {
+    position: relative; width: 110px;
+    -webkit-user-select:none; -moz-user-select:none; -ms-user-select: none;
+}
+.onoffswitch-checkbox {
+    display: none;
+}
+.onoffswitch-label {
+    display: block; overflow: hidden; cursor: pointer;
+    border: 2px solid #999999; border-radius: 20px;
+}
+.onoffswitch-inner {
+    display: block; width: 200%; margin-left: -100%;
+    transition: margin 0.3s ease-in 0s;
+}
+.onoffswitch-inner:before, .onoffswitch-inner:after {
+    display: block; float: left; width: 50%; height: 30px; padding: 0; line-height: 30px;
+    font-size: 14px; color: white; font-family: Trebuchet, Arial, sans-serif; font-weight: bold;
+    box-sizing: border-box;
+}
+.onoffswitch-inner:before {
+    content: "Countries";
+    padding-left: 10px;
+    background-color: #337AB7; color: #FFFFFF;
+}
+.onoffswitch-inner:after {
+    content: "States";
+    padding-right: 10px;
+    background-color: #C23445; color: #FFFFFF;
+    text-align: right;
+}
+.onoffswitch-switch {
+    display: block; width: 24px; margin: 5px;
+    background: #FFFFFF;
+    position: absolute; top: 0; bottom: 0;
+    right: 76px;
+    border: 2px solid #999999; border-radius: 20px;
+    transition: all 0.3s ease-in 0s; 
+}
+.onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-inner {
+    margin-left: 0;
+}
+.onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-switch {
+    right: 0px; 
 }
 
