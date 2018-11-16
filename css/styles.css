@@ -47,6 +47,7 @@ h1 {
 
 .navbar-inverse .navbar-brand {
   color:white;
+  font-weight: 500;
 }
 
 .navbar{
@@ -220,7 +221,7 @@ h4.home {
 }
 
 .col-md-4 > h3 {
-  color:#377BB5;
+  color: #383838;
   margin-bottom: 1em;
 }
 
@@ -229,6 +230,10 @@ h4.home {
   margin-bottom: -0.8em;
   font-size: 1.2em;
   font-weight:bold;
+}
+
+.col-md-4 > ul > li > a {
+  font-weight: 500;
 }
 
 .overlay {
