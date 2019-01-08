@@ -179,9 +179,7 @@ p.mb-5 {
 .chevron i {
   font-size: 2rem;
   color: #fff;
-  -moz-animation: bounce 2s infinite;
-  -webkit-animation: bounce 2s infinite;
-  animation: bounce 2s infinite;
+  animation: bounce 2s 4;
 }
 
 @keyframes bounce {
