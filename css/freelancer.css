@@ -129,7 +129,7 @@ p.mb-5 {
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link:hover {
-  color: #18BC9C;
+  color: #868e96;
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link:active, #mainNav .navbar-nav li.nav-item a.nav-link:focus {
@@ -471,10 +471,6 @@ a:focus, a:hover, a:active {
 
 .text-secondary {
   color: #2C3E50 !important;
-}
-
-.hidden {
-  display: none !important;
 }
 
 .btn-primary {
