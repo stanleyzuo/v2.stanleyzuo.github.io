@@ -41,4 +41,14 @@
     target: '#sideNav'
   });
 
+  // Toggle between moon and sun icons and dark stylesheet disabled attribute
+  $("#dark").click(function(){
+    $("#dark").toggleClass("fa-moon fa-sun");
+    if ($("#dark-styles").attr("disabled")) {
+      $("#dark-styles").removeAttr("disabled");
+    } else {
+      $("#dark-styles").attr("disabled", "disabled");
+    }
+  });
+
 })(jQuery); // End of use strict

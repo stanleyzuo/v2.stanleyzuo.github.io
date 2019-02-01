@@ -7,7 +7,8 @@
 body {
   font-family: 'Muli', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   padding-top: 54px;
-  color: #868e96;
+  background-color: #1B1A1A;
+  color: #bebebe;
 }
 
 @media (min-width: 992px) {
@@ -32,14 +33,17 @@ h6 {
 h1 {
   font-size: 6rem;
   line-height: 5.5rem;
+  color: #bebebe;
 }
 
 h2 {
   font-size: 3.5rem;
+  color: #f1f1f1;
 }
 
 h3 {
   font-size: 2rem;
+  color: #e4e4e4;
 }
 
 p.lead {
@@ -66,13 +70,14 @@ p.lead {
   display: inline-block;
   height: 3.5rem;
   width: 3.5rem;
-  background-color: #495057;
-  color: #fff !important;
+  background-color: #1B1A1A;
+  color: #e4e4e4 !important;
   border-radius: 100%;
   text-align: center;
   font-size: 1.5rem;
   line-height: 3.5rem;
   margin-right: 1rem;
+  border: 1px solid #DA322F;
 }
 
 .social-icons a:last-child {
@@ -80,7 +85,17 @@ p.lead {
 }
 
 .social-icons a:hover {
+  background-color: #DA322F;
+}
+
+.download a {
+  background-color: #495057;
+  color: #fff;
+}
+
+.download a:hover {
   background-color: #18BC9C;
+  color: #fff;
 }
 
 .dev-icons {
@@ -104,7 +119,7 @@ p.lead {
 }
 
 .nav-link.active {
-  color: #18BC9C !important;
+  color: #DA322F !important;
 }
 
 .nav-link:hover {
@@ -122,15 +137,6 @@ p.lead {
 
 #bars {
   color: #fff;
-}
-
-#dark {
-  color: #fff;
-  font-size: 1.25rem;
-}
-
-#navbarSupportedContent > ul > li:nth-child(6) > a {
-  text-align: right;
 }
 
 @media (min-width: 992px) {
@@ -191,10 +197,6 @@ p.lead {
   .social-icons {
     text-align: left;
   }
-  #navbarSupportedContent > ul > li:nth-child(6) > a {
-    text-align: center;
-    margin-top: 3rem;
-  }
 }
 
 section.resume-section {
@@ -224,23 +226,27 @@ section.resume-section .resume-item .resume-date {
 }
 
 .bg-primary {
-  background-color: #2C3E50 !important;
+  background-color: #111010 !important;
 }
 
 .text-primary {
-  color: #343a40 !important;
+  color: #e4e4e4 !important;
 }
 
 .text-secondary {
-  color: #18BC9C !important;
+  color: #DA322F !important;
+}
+
+#about > div > h1 > span {
+  color: #f1f1f1 !important;
 }
 
 a {
-  color: #18BC9C;
+  color: #DA322F;
 }
 
 a:hover, a:focus, a:active {
-  color: #868e96;
+  color: #fff;
 }
 
 .d-block.d-lg-none {
@@ -249,7 +255,7 @@ a:hover, a:focus, a:active {
 
 .d-block.d-lg-none img {
   width: 60%;
-  border: 2.5px solid #18BC9C;
+  border: 2.5px solid #e4e4e4;
 }
 
 small a {
