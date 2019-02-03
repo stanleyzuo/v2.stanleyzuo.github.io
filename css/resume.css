@@ -49,6 +49,15 @@ p.lead {
 
 .bullets {
   padding-left: 20px;
+  list-style: none;
+}
+
+.bullets li::before {
+  content: "\2022";
+  color: #18BC9C;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
 }
 
 .subheading {
@@ -94,6 +103,11 @@ p.lead {
 #sideNav .navbar-brand {
   text-transform: uppercase;
   font-weight: 800;
+  color: #fff !important;
+}
+
+#sideNav .brand {
+  margin-left: -1rem;
 }
 
 #sideNav .navbar-nav .nav-item .nav-link {
@@ -127,9 +141,16 @@ p.lead {
 #dark {
   color: #fff;
   font-size: 1.25rem;
+  border: 2px solid;
+  border-radius: 50%;
+  padding: 0.5rem;
 }
 
-#navbarSupportedContent > ul > li:nth-child(6) > a {
+#dark:hover {
+  color: rgba(255,255,255,.5);
+}
+
+#navbarSupportedContent > ul > li:nth-child(5) > a {
   text-align: right;
 }
 
@@ -159,7 +180,7 @@ p.lead {
   #sideNav .navbar-brand .img-profile {
     max-width: 10rem;
     max-height: 10rem;
-    border: 0.5rem solid rgba(255, 255, 255, 0.2);
+    border: 0.25rem solid rgba(255, 255, 255, 0.2);
   }
   #sideNav .navbar-collapse {
     display: -webkit-box;
@@ -191,9 +212,12 @@ p.lead {
   .social-icons {
     text-align: left;
   }
-  #navbarSupportedContent > ul > li:nth-child(6) > a {
+  #navbarSupportedContent > ul > li:nth-child(5) > a {
     text-align: center;
-    margin-top: 3rem;
+    margin-top: 1.5rem;
+  }
+  .nav-link.active .img-profile {
+    border-color: #18BC9C !important;
   }
 }
 
@@ -249,7 +273,7 @@ a:hover, a:focus, a:active {
 
 .d-block.d-lg-none img {
   width: 60%;
-  border: 2.5px solid #18BC9C;
+  border: solid #556573;
 }
 
 small a {

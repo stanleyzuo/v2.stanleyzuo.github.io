@@ -55,6 +55,10 @@ p.lead {
   padding-left: 20px;
 }
 
+.bullets li::before {
+  color: #DA322F;
+}
+
 .subheading {
   text-transform: uppercase;
   font-weight: 500;
@@ -165,7 +169,7 @@ p.lead {
   #sideNav .navbar-brand .img-profile {
     max-width: 10rem;
     max-height: 10rem;
-    border: 0.5rem solid rgba(255, 255, 255, 0.2);
+    border: 0.25rem solid rgba(255, 255, 255, 0.2);
   }
   #sideNav .navbar-collapse {
     display: -webkit-box;
@@ -196,6 +200,9 @@ p.lead {
   }
   .social-icons {
     text-align: left;
+  }
+  .nav-link.active .img-profile {
+    border-color: #DA322F !important;
   }
 }
 
@@ -255,7 +262,7 @@ a:hover, a:focus, a:active {
 
 .d-block.d-lg-none img {
   width: 60%;
-  border: 2.5px solid #e4e4e4;
+  border: solid;
 }
 
 small a {
