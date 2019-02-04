@@ -103,11 +103,6 @@ p.lead {
 #sideNav .navbar-brand {
   text-transform: uppercase;
   font-weight: 800;
-  color: #fff !important;
-}
-
-#sideNav .brand {
-  margin-left: -1rem;
 }
 
 #sideNav .navbar-nav .nav-item .nav-link {
@@ -237,6 +232,9 @@ section.resume-section .resume-item .resume-date {
   }
   section.resume-section .resume-item .resume-date {
     min-width: 18rem;
+  }
+  .d-block.d-lg-none img {
+    width: auto !important;
   }
 }
 
