@@ -269,5 +269,8 @@ small a {
   font-weight: 600;
 }
 
+progress::-webkit-progress-value {
+  background-color: #DA322F;
+}
 
 
