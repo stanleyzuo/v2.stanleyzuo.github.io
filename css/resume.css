@@ -214,9 +214,6 @@ p.lead {
   .nav-link.active .img-profile {
     border-color: #18BC9C !important;
   }
-  progress {
-    display: none;
-  }
 }
 
 section.resume-section {
@@ -275,6 +272,15 @@ a:hover, a:focus, a:active {
 .d-block.d-lg-none img {
   width: 60%;
   border: solid #556573;
+}
+
+.navbar-brand .d-block {
+  color: #fff;
+}
+
+.navbar-brand.nav-link {
+  padding-left: 0;
+  padding-right: 0;
 }
 
 small a {

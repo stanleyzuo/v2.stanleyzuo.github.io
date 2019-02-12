@@ -2,7 +2,7 @@
   "use strict"; // Start of use strict
 
   // Rotate toggle icon on menu expand
-  $(".nav-link, #bars").click(function(){
+  $("#navbarSupportedContent .nav-link, #bars").click(function(){
     if ($(".navbar-toggler").attr("aria-expanded") == "false") {
       $("#bars").addClass("fa-rotate-90 text-secondary");
     } else {
@@ -51,21 +51,34 @@
     }
   });
  
+ // Progress bar function
+ setTimeout(function() {
   var winHeight = $(window).height(), 
       docHeight = $(document).height(),
       progressBar = $('progress'),
       max, value;
 
     /* Set the max scrollable area */
-  max = docHeight - winHeight;
-  progressBar.attr('max', max);
+    max = docHeight - winHeight;
+    progressBar.attr('max', max);
 
-  $(document).on('scroll', function(){
-      value = $(window).scrollTop();
-      progressBar.attr('value', value);
+    $(document).on('scroll', function(){
+       value = $(window).scrollTop();
+       progressBar.attr('value', value);
+    });
+    // Bind max and value to window resize
+    $(window).on('resize', function() {
+    winHeight = $(window).height(),
+    docHeight = $(document).height();
+
+    max = docHeight - winHeight;
+    progressBar.attr('max', max);
+
+    value =  $(window).scrollTop();
+    progressBar.attr('value', value);
   });
+}, 1);
 
 })(jQuery); // End of use strict
-
 
 
