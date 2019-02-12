@@ -59,25 +59,26 @@
       max, value;
 
     /* Set the max scrollable area */
-    max = docHeight - winHeight;
+    max = docHeight - winHeight - 100;
     progressBar.attr('max', max);
 
     $(document).on('scroll', function(){
        value = $(window).scrollTop();
        progressBar.attr('value', value);
     });
+
     // Bind max and value to window resize
     $(window).on('resize', function() {
     winHeight = $(window).height(),
     docHeight = $(document).height();
 
-    max = docHeight - winHeight;
+    max = docHeight - winHeight - 100;
     progressBar.attr('max', max);
 
     value =  $(window).scrollTop();
     progressBar.attr('value', value);
   });
-}, 1000);
+}, 100);
 
 })(jQuery); // End of use strict
 
