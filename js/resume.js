@@ -77,7 +77,7 @@
     value =  $(window).scrollTop();
     progressBar.attr('value', value);
   });
-}, 100);
+}, 1000);
 
 })(jQuery); // End of use strict
 
