@@ -108,8 +108,8 @@ p.mb-5 {
 }
 
 #mainNav {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
   font-weight: 700;
   font-family: 'Montserrat';
   background-color: transparent;
